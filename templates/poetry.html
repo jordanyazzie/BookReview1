@@ -1,0 +1,43 @@
+{% extends 'layout.html' %}
+{% block body %}
+
+<section class="text-center">
+  <header>
+    <h1>GOODREADS</h1>
+    <h2>Meet your next favorite book</h2>
+  </header>
+
+  <div>Deciding what to read next?</div>
+  <div>What are your friends reading?</div>
+  <div>Are you and author or a publisher?</div>
+
+  <div>
+    <a href="/mystery"><button>Mystery</button></a>
+    <a href="/nonFiction"><button>Non-fiction</button></a>
+    <a href="/poetry"><button>Poetry</button></a>
+  </div>
+  <hr>
+</section>
+<section class="pl-5 pr-5 pt-2">
+  <h1 class="text-center">Poetry</h1>
+
+  <p>Poetry is a form of literary art in which language is used for its aesthetic and evocative qualities in addition
+    to, or in lieu of, its apparent meaning. Poetry may be written independently, as discrete poems, or may occur in
+    conjunction with other arts, as in poetic drama, hymns or lyrics.</p>
+  <p>Poetry often uses particular forms and conventions to expand the literal meaning of the words, or to evoke
+    emotional or sensual responses. Devices such as assonance, alliteration, onomatopoeia and rhythm are sometimes
+    used to achieve musical or incantatory effects. Poetry's use of ambiguity, symbolism, irony and other stylistic
+    elements of poetic diction often leaves a poem open to multiple interpretations. Similarly, metaphor and simile
+    create a resonance between otherwise disparate images—a layering of meanings, forming connections previously not
+    perceived. Kindred forms of resonance may exist, between individual verses, in their patterns of rhyme or rhythm.</p>
+
+  <div>
+    <ul style="list-style-type: none">
+       <li><a href="/poetryBookOne">Shout</a></li>
+      <li><a href="/poetryBookTwo">Voices: The Final Hours of Joan of Arc</a></li>
+      <li><a href="/poetryBookThree">Little Boy</a></li>
+    </ul>
+  </div>
+</section>
+
+{% endblock %}
